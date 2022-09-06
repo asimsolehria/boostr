@@ -397,6 +397,42 @@
                                                         " bgcolor="#0b1a32">
 													<img src="https://patriotgolf.com/wp-content/uploads/2020/06/pcg-logo-website-250.png" width="200" alt="" />
 												</td>
+												<td width="19%" valign="middle" style="
+                                                                                            padding-top: 5px;
+
+                                                                                        ">
+													<table  width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tbody>
+															<tr>
+																<td>
+																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																		<tbody>
+																			<tr>
+																				<td width="45%" style="
+                                                                                                                            font-size: 14px;
+                                                                                                                            color: #ffffff;
+                                                                                                                            font-family: 'open-sans',
+                                                                                                                                sans-serif;
+                                                                                                                        ">
+																					Order
+																				</td>
+																				<td width="55%" bgcolor="#ffffff" style="
+                                                                                                                            padding: 5px;
+                                                                                                                            font-size: 14px;
+                                                                                                                            color: #000000;
+                                                                                                                            font-family: 'open-sans',
+                                                                                                                                sans-serif;
+                                                                                                                        " align="center">
+																					<strong><?php echo $order->get_order_number(); ?></strong>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
 											</tr>
 										</tbody>
 									</table>
@@ -464,41 +500,7 @@
                                                                                         ">
 																					<strong><?php echo $email_heading; ?></strong>
 																				</td>
-																				<td width="19%" valign="middle" style="
-                                                                                            padding-top: 5px;
-                                                                                        ">
-																					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																						<tbody>
-																							<tr>
-																								<td>
-																									<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																										<tbody>
-																											<tr>
-																												<td width="45%" style="
-                                                                                                                            font-size: 14px;
-                                                                                                                            color: ;
-                                                                                                                            font-family: 'open-sans',
-                                                                                                                                sans-serif;
-                                                                                                                        ">
-																													Order
-																												</td>
-																												<td width="55%" bgcolor="#000000" style="
-                                                                                                                            padding: 5px;
-                                                                                                                            font-size: 14px;
-                                                                                                                            color: #ffffff;
-                                                                                                                            font-family: 'open-sans',
-                                                                                                                                sans-serif;
-                                                                                                                        " align="center">
-																													<strong><?php echo $order->get_order_number(); ?></strong>
-																												</td>
-																											</tr>
-																										</tbody>
-																									</table>
-																								</td>
-																							</tr>
-																						</tbody>
-																					</table>
-																				</td>
+																				
 																			</tr>
 																		</tbody>
 																	</table>
@@ -764,7 +766,10 @@
 																																															wc_display_item_meta(
 																																																$item,
 																																																array(
-																																																	'label_before' => '<strong class="wc-item-meta-label" style="float: ' . esc_attr($text_align) . '; margin-' . esc_attr($margin_side) . ': .25em; clear: both">',
+																																																	'before'       => '<ul class="wc-item-meta"><li style="margin-bottom:-12px;">',
+																																																	'separator'    => '</li><li style="margin-bottom:-12px;">',
+																																																	'after'        => '</li></ul>',
+																																																	'label_before' => '<strong class="wc-item-meta-label" style="float: left; margin-' . esc_attr($margin_side) . ': .25em; clear: both">',
 																																																)
 																																															);
 
