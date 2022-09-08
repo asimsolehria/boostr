@@ -1178,6 +1178,7 @@
 																												Address</strong>
 																											<br />
 																											<br />
+																											<br />
 																											<?php echo wp_kses_post($shipping); ?>
 																											<?php if ($order->get_shipping_phone()) : ?>
 																												<br /><?php echo wc_make_phone_clickable($order->get_shipping_phone()); ?>
