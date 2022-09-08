@@ -350,14 +350,14 @@
 				<td align="center" valign="top" bgcolor="#000000">
 					<table class="body" style="
                                 font-family: Arial, sans-serif;
-                                max-width: 620px;
+                                max-width: 600px;
                                 background-color: #fff;
                                 margin: 0px auto;
-                            " align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+                            " align="center" border="0" cellspacing="0" cellpadding="0" width="600">
 						<tbody>
 							<tr>
 								<td align="center" bgcolor="#FFFFFF">
-									<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+									<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
 										<tbody>
 											<tr>
 												<td class="column center" style="
@@ -381,13 +381,13 @@
 				<td align="center" valign="top" bgcolor="#0b1a32">
 					<table class="body" style="
                                 font-family: Arial, sans-serif;
-                                max-width: 620px;
+                                max-width: 600px;
                                 margin: 0px auto;
-                            " align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+                            " align="center" border="0" cellspacing="0" cellpadding="0" width="600">
 						<tbody>
 							<tr>
 								<td align="center">
-									<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="620">
+									<table class="container" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
 										<tbody>
 											<tr>
 												<td class="column center" style="
